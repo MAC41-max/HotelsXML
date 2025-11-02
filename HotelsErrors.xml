@@ -1,30 +1,144 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Hotel> <!-- Wrong root element name -->
-  <Hotel Rating="4.2">
-    <Name>Westin</Name>
-    <Phone>480-968-8885</Phone>
-    <!--Missing one required Address element closing tag -->
-    <Address>
-      <Number>11</Number>
-      <Street>E 7th St</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
-  </Address>
-  </Hotel>
+<Hotel> <!-- Error: Wrong root element name (should be <Hotels>) -->
 
-  <Hotel> <!-- Missing Rating attribute -->
-    <Name>Marriott</Name>
-    <Name>Marriott Duplicate</Name> <!--  Two Name elements -->
-    <!--  Missing Phone element -->
+  <Hotel Rating="4.3">
+    <Name>The Queen Mary Hotel</Name>
+    <Phone>562-432-7250</Phone>
+    <Phone>877-600-4313</Phone>
     <Address>
-      <Number>500</Number>
-      <Street>S Mill Ave</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
+      <Number>1126</Number>
+      <Street>Queens Highway</Street>
+      <City>Long Beach</City>
+      <State>CA</State>
+      <Zip>90802</Zip>
+      <NearestAirport>Los Angeles International</NearestAirport>
     </Address>
   </Hotel>
+
+  <Hotel> <!-- Error: Missing required Rating attribute -->
+    <Name>The Stanley Hotel</Name>
+    <Phone>970-586-3151</Phone>
+    <Phone>800-635-5801</Phone>
+    <Address>
+      <Number>333</Number>
+      <Street>Wonderview Avenue</Street>
+      <City>Estes Park</City>
+      <State>CO</State>
+      <Zip>80517</Zip>
+      <NearestAirport>Denver International</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.1">
+    <Name>Hotel Chelsea</Name>
+    <!--  Error: Missing Phone element -->
+    <Address>
+      <Number>222</Number>
+      <Street>West 23rd Street</Street>
+      <City>New York</City>
+      <State>NY</State>
+      <Zip>10011</Zip>
+      <NearestAirport>LaGuardia</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.1">
+    <Name>The Crescent Hotel &amp; Spa</Name>
+    <Phone>479-253-9766</Phone>
+    <Phone>800-719-1828</Phone>
+    <!-- Error: Missing closing tag for Address -->
+    <Address>
+      <Number>75</Number>
+      <Street>Prospect Avenue</Street>
+      <City>Eureka Springs</City>
+      <State>AR</State>
+      <Zip>72632</Zip>
+      <NearestAirport>Northwest Arkansas Regional</NearestAirport>
+  </Hotel>
+
+  <Hotel Rating="4.0">
+    <Name>The Hollywood Roosevelt</Name>
+    <Name>Duplicate Roosevelt Entry</Name> <!-- Error: Two Name elements -->
+    <Phone>323-856-1970</Phone>
+    <Phone>800-622-5488</Phone>
+    <Address>
+      <Number>7000</Number>
+      <Street>Hollywood Boulevard</Street>
+      <City>Los Angeles</City>
+      <State>CA</State>
+      <Zip>90028</Zip>
+      <NearestAirport>Hollywood Burbank</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.4">
+    <Name>The Emily Morgan San Antonio – a DoubleTree by Hilton Hotel</Name>
+    <Phone>210-223-1800</Phone>
+    <Phone>888-375-5091</Phone>
+    <Address>
+      <Number>705</Number>
+      <Street>East Houston Street</Street>
+      <City>San Antonio</City>
+      <State>TX</State>
+      <Zip>78205</Zip>
+      <NearestAirport>San Antonio International</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel>
+    <Name>Hotel Monteleone</Name>
+    <Phone>504-523-3341</Phone>
+    <Phone>800-535-9595</Phone>
+    <Address>
+      <Number>214</Number>
+      <Street>Royal Street</Street>
+      <City>New Orleans</City>
+      <State>LA</State>
+      <Zip>70130</Zip>
+      <NearestAirport>Louis Armstrong New Orleans</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.5">
+    <Name>Hotel del Coronado</Name>
+    <Phone>619-435-6611</Phone>
+    <Phone>800-468-3533</Phone>
+    <Address>
+      <Number>1500</Number>
+      <Street>Orange Avenue</Street>
+      <City>Coronado</City>
+      <State>CA</State>
+      <Zip>92118</Zip>
+      <NearestAirport>San Diego International</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.1">
+    <Name>The Myrtles Plantation</Name>
+    <Phone>225-635-6277</Phone>
+    <Phone>800-809-0565</Phone>
+    <Address>
+      <Number>7747</Number>
+      <Street>US Highway 61</Street>
+      <City>St. Francisville</City>
+      <State>LA</State>
+      <Zip>70775</Zip>
+      <NearestAirport>Baton Rouge Metropolitan</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.3">
+    <Name>Omni Parker House</Name>
+    <Phone>617-227-8600</Phone>
+    <Phone>888-444-6664</Phone>
+    <Address>
+      <Number>60</Number>
+      <Street>School Street</Street>
+      <City>Boston</City>
+      <State>MA</State>
+      <Zip>02108</Zip>
+      <NearestAirport>Logan International</NearestAirport>
+    </Address>
+  </Hotel>
+
 </Hotel>
