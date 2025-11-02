@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Hotels>
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address>
+      <Number>11</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+  </Hotel>
 
   <Hotel Rating="4.3">
     <Name>The Queen Mary Hotel</Name>
@@ -18,10 +31,10 @@
   <Hotel Rating="4.2">
     <Name>The Stanley Hotel</Name>
     <Phone>970-586-3151</Phone>
-    <Phone>800-635-5801</Phone>
+    <Phone>800-976-1377</Phone>
     <Address>
       <Number>333</Number>
-      <Street>Wonderview Avenue</Street>
+      <Street>Wonderview Ave</Street>
       <City>Estes Park</City>
       <State>CO</State>
       <Zip>80517</Zip>
@@ -29,55 +42,55 @@
     </Address>
   </Hotel>
 
-  <Hotel>
+  <Hotel Rating="4.0">
     <Name>Hotel Chelsea</Name>
-    <Phone>212-255-3011</Phone>
-    <Phone>212-255-7575</Phone>
+    <Phone>212-243-3700</Phone>
+    <Phone>212-243-3777</Phone>
     <Address>
       <Number>222</Number>
-      <Street>West 23rd Street</Street>
+      <Street>W 23rd St</Street>
       <City>New York</City>
       <State>NY</State>
       <Zip>10011</Zip>
-      <NearestAirport>LaGuardia</NearestAirport>
+      <NearestAirport>JFK International</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="3.9">
+    <Name>Crescent Hotel</Name>
+    <Phone>479-253-9766</Phone>
+    <Phone>877-342-9766</Phone>
+    <Address>
+      <Number>75</Number>
+      <Street>Prospect Ave</Street>
+      <City>Eureka Springs</City>
+      <State>AR</State>
+      <Zip>72632</Zip>
+      <NearestAirport>Northwest Arkansas National</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.5">
+    <Name>The Hollywood Roosevelt</Name>
+    <Phone>323-856-1970</Phone>
+    <Phone>323-856-1971</Phone>
+    <Address>
+      <Number>7000</Number>
+      <Street>Hollywood Blvd</Street>
+      <City>Los Angeles</City>
+      <State>CA</State>
+      <Zip>90028</Zip>
+      <NearestAirport>Los Angeles International</NearestAirport>
     </Address>
   </Hotel>
 
   <Hotel Rating="4.1">
-    <Name>The Crescent Hotel &amp; Spa</Name>
-    <Phone>479-253-9766</Phone>
-    <Phone>800-719-1828</Phone>
-    <Address>
-      <Number>75</Number>
-      <Street>Prospect Avenue</Street>
-      <City>Eureka Springs</City>
-      <State>AR</State>
-      <Zip>72632</Zip>
-      <NearestAirport>Northwest Arkansas Regional</NearestAirport>
-    </Address>
-  </Hotel>
-
-  <Hotel Rating="4.0">
-    <Name>The Hollywood Roosevelt</Name>
-    <Phone>323-856-1970</Phone>
-    <Phone>800-622-5488</Phone>
-    <Address>
-      <Number>7000</Number>
-      <Street>Hollywood Boulevard</Street>
-      <City>Los Angeles</City>
-      <State>CA</State>
-      <Zip>90028</Zip>
-      <NearestAirport>Hollywood Burbank</NearestAirport>
-    </Address>
-  </Hotel>
-
-  <Hotel Rating="4.4">
-    <Name>The Emily Morgan San Antonio – a DoubleTree by Hilton Hotel</Name>
-    <Phone>210-223-1800</Phone>
-    <Phone>888-375-5091</Phone>
+    <Name>The Emily Morgan San Antonio</Name>
+    <Phone>210-225-5100</Phone>
+    <Phone>210-224-0123</Phone>
     <Address>
       <Number>705</Number>
-      <Street>East Houston Street</Street>
+      <Street>E Houston St</Street>
       <City>San Antonio</City>
       <State>TX</State>
       <Zip>78205</Zip>
@@ -85,27 +98,27 @@
     </Address>
   </Hotel>
 
-  <Hotel>
+  <Hotel Rating="4.3">
     <Name>Hotel Monteleone</Name>
     <Phone>504-523-3341</Phone>
-    <Phone>800-535-9595</Phone>
+    <Phone>504-523-3455</Phone>
     <Address>
       <Number>214</Number>
-      <Street>Royal Street</Street>
+      <Street>Royal St</Street>
       <City>New Orleans</City>
       <State>LA</State>
       <Zip>70130</Zip>
-      <NearestAirport>Louis Armstrong New Orleans</NearestAirport>
+      <NearestAirport>Louis Armstrong International</NearestAirport>
     </Address>
   </Hotel>
 
-  <Hotel Rating="4.5">
+  <Hotel Rating="4.6">
     <Name>Hotel del Coronado</Name>
     <Phone>619-435-6611</Phone>
-    <Phone>800-468-3533</Phone>
+    <Phone>619-522-8490</Phone>
     <Address>
       <Number>1500</Number>
-      <Street>Orange Avenue</Street>
+      <Street>Orange Ave</Street>
       <City>Coronado</City>
       <State>CA</State>
       <Zip>92118</Zip>
@@ -113,32 +126,17 @@
     </Address>
   </Hotel>
 
-  <Hotel Rating="4.1">
+  <Hotel Rating="4.4">
     <Name>The Myrtles Plantation</Name>
     <Phone>225-635-6277</Phone>
-    <Phone>800-809-0565</Phone>
+    <Phone>225-635-6292</Phone>
     <Address>
       <Number>7747</Number>
-      <Street>US Highway 61</Street>
+      <Street>U.S. Highway 61</Street>
       <City>St. Francisville</City>
       <State>LA</State>
       <Zip>70775</Zip>
       <NearestAirport>Baton Rouge Metropolitan</NearestAirport>
     </Address>
   </Hotel>
-
-  <Hotel Rating="4.3">
-    <Name>Omni Parker House</Name>
-    <Phone>617-227-8600</Phone>
-    <Phone>888-444-6664</Phone>
-    <Address>
-      <Number>60</Number>
-      <Street>School Street</Street>
-      <City>Boston</City>
-      <State>MA</State>
-      <Zip>02108</Zip>
-      <NearestAirport>Logan International</NearestAirport>
-    </Address>
-  </Hotel>
-
 </Hotels>
